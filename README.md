@@ -1,6 +1,10 @@
 
 
-The `routes.ts` pattern
+# Prerequisites
++ Version of NodeJs >= 10.
++ Versión of Angular 9.
+
+##### The `routes.ts` pattern
 
 # Getting started
 #### Go to project folder and install dependencies:
