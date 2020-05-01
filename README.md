@@ -2,6 +2,13 @@
 
 The `routes.ts` pattern
 
+# Getting started
+## Go to project folder and install dependencies:
+`npm install`
+## Launch development server, and open localhost:4200 in your browser:
+`ng serve`
+
+
 # Tree Structure        
 ```
   app/
