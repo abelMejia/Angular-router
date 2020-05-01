@@ -1,8 +1,8 @@
-Based on https://medium.com/@shairez/angular-routing-a-better-pattern-for-large-scale-apps-f2890c952a18
+
 
 The `routes.ts` pattern
 
-# Folder structure        
+# Tree Structure        
 ```
   app/
       app.module.ts
@@ -15,3 +15,5 @@ The `routes.ts` pattern
                  user.module.ts
                  user.routes.ts
 ```        
+
+Based on https://medium.com/@shairez/angular-routing-a-better-pattern-for-large-scale-apps-f2890c952a18
