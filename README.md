@@ -14,4 +14,15 @@ The `routes.ts` pattern
 +        user.module.ts
 +        user.routes.ts
         
-        
+```
+  app/
+      app.module.ts
+      app.routes.ts  
+          modules/
+              configuration/
+                 configuration.module.ts
+                 configuration.routes.ts
+              user/  
+                 user.module.ts
+                 user.routes.ts
+```        
