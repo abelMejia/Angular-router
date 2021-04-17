@@ -1,29 +1,27 @@
+# Router
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
 
-# Prerequisites
-+ Version of NodeJs >= 10.
-+ Versión of Angular 9.
+## Development server
 
-# Getting started
-#### Go to project folder and install dependencies:
-`$ npm install`
-#### Launch development server, and open localhost:4200 in your browser:
-`$ ng serve`
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-# Tree Structure   
-##### The `routes.ts` pattern
-```
-  app/
-      app.module.ts
-      app.routes.ts  
-          modules/
-              configuration/
-                 configuration.module.ts
-                 configuration.routes.ts
-              user/  
-                 user.module.ts
-                 user.routes.ts
-```        
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Based on https://medium.com/@shairez/angular-routing-a-better-pattern-for-large-scale-apps-f2890c952a18
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

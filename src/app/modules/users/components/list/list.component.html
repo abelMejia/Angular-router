@@ -1,0 +1,12 @@
+<h2>My Heroes</h2>
+
+<ul>
+    <li
+      style="cursor: pointer;"
+      *ngFor="let item of heroes; let i = index"
+      routerLink="/users/details/{{item.id}}"
+    >
+    <span class="badge">{{item.id}}</span> {{item.name}}
+
+    </li>
+</ul>

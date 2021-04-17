@@ -1,12 +1,10 @@
-<h1>Angular Router App</h1>
-<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
-<ul class="nav">
-  <li routerLink="/admin/configuration/user" class="nav-item">
-    <a class="nav-link cursor-pointer" routerLinkActive="active">Configuracion de Usuario</a>
-  </li>
-  <li routerLink="/admin/user/list" class="nav-item">
-    <a class="nav-link cursor-pointer" routerLinkActive="active">Lista de usuarios</a>
-  </li>
+<ul>
+    <li><a routerLink="./login">LOGIN</a></li>
+    <li><a routerLink="./register">REGISTER</a></li>
+    <li><a routerLink="./reminder">REMINDER</a></li>
+    <li><a routerLink="./config">CONFIG</a></li>
+    <li><a routerLink="./dashboard">DASHBOARD</a></li>
+    <li><a routerLink="./users/list">USERS LIST</a></li>
 </ul>
-<!-- The routed views render in the <router-outlet>-->
+
 <router-outlet></router-outlet>
